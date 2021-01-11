@@ -2,10 +2,10 @@ package Exercises_HHO.Methods;
 
 import java.util.Scanner;
 
-// 1. Find the Greatest common divisor(GCD) of two given numbers
-// 2. Find the Least common multiple (LCM) of two given numbers
-// 3. Check whether GCD(a,b) * LCM(a,b) = a*b with the help of a method.
-public class FindingGCD {
+// 1. Find the Greatest common divisor(GCD) of two given numbers (Girilen iki sayının EBOB'unu bulunuz)
+// 2. Find the Least common multiple (LCM) of two given numbers  (Girilen iki sayının EKOK'unu bulunuz)
+// 3. Check whether GCD(a,b) * LCM(a,b) = a*b with the help of a method. (Burada EBOB(a,b) * EKOK(a,b) = a*b kuralının geçerli olup olmadığını ayrı bir metodla kontrol ediniz.)
+public class FindingGCDandLCM {
     public static void main(String[] args) {
 
         Scanner scan = new Scanner(System.in);
